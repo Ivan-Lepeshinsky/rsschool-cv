@@ -1,7 +1,7 @@
 # LEPESHINSKY IVAN
 
 #### Trainee developer
-
+#### Location: Minsk
 ---
 
 ## Contacts
