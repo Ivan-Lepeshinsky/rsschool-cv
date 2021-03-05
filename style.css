@@ -1,0 +1,79 @@
+.cv {
+  font-size: 1.2em;
+  width: 1250px;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.info {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.photo img {
+  width: 300px;
+}
+main > section {
+  padding: 20px;
+}
+
+main > section:nth-child(odd) {
+  background-color: rgba(38, 134, 158, 0.116);
+}
+
+.skills li {
+  display: inline-block;
+  margin: 0 30px;
+  padding: 15px 10px;
+  border-radius: 15px;
+  list-style-type: none;
+  font-weight: 600;
+  background-color: rgba(128, 128, 128, 0.363);
+}
+.codelist {
+  display: flex;
+  justify-content: space-evenly;
+}
+.codelist li {
+  margin: 2px 30px;
+  padding: 10px 40px;
+  border-radius: 15px;
+  list-style-type: none;
+  font-weight: 600;
+  background-color: rgba(128, 128, 128, 0.363);
+}
+.codelist li a {
+  text-decoration: none;
+}
+.jobexp li {
+  margin: 5px auto;
+  list-style-type: none;
+}
+.education > ul > li {
+  list-style-type: none;
+}
+.language li {
+  width: fit-content;
+  padding: 10px 40px;
+  border-radius: 15px;
+  list-style-type: none;
+  font-weight: 600;
+  background-color: rgba(128, 128, 128, 0.363);
+}
+
+footer {
+  padding: 20px;
+  background-color: rgba(161, 161, 161, 0.233);
+}
+footer li {
+  display: inline;
+  padding: 10px 40px;
+  list-style-type: none;
+  font-weight: 400;
+}
